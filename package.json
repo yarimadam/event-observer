@@ -1,0 +1,24 @@
+{
+  "name": "event-observer",
+  "version": "0.0.1",
+  "description": "Register and observe events.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarimadam/event-observer.git"
+  },
+  "keywords": [
+    "event",
+    "observer",
+    "dispatcher"
+  ],
+  "author": "Halil Tuncay Uner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yarimadam/event-observer/issues"
+  },
+  "homepage": "https://github.com/yarimadam/event-observer#readme"
+}

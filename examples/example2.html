@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Observer - Example 2 - Fluid Method</title>
+    <script src="../src/event-observer.js"></script>
+    <script>
+        var eo = new EventObserver();
+
+        eo.observe(['event1', 'event2']).all(function () {
+            alert('all resolved');
+        });
+    </script>
+</head>
+<body>
+    <p>execute the following commands in web console:</p>
+    <ul>
+        <li>eo.resolveEvent('event1');</li>
+        <li>eo.resolveEvent('event2');</li>
+    </ul>
+</body>
+</html>
